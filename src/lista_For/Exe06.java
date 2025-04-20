@@ -9,7 +9,7 @@ public class Exe06 {
         System.out.println("Digite um número:");
         int n = sc.nextInt();
 
-        for (int i = 0; i < n; i++) {
+        for (int i = (n - 1); i >= 0; i--) {
             System.out.println(i);
         }
     }
