@@ -4,5 +4,7 @@ Métodos
 - Getters / Setters
 - toString (formatar todas infos dos atributos)
 
-  Get - Busca info
-  Set - Altera info
+  - (Get) -> Busca info
+  - (Set) -> Altera info
+ 
+    
