@@ -18,14 +18,9 @@ public class Desenho{
         home.makeVisible();
         home.changeColor("blue");
         home.changeSize(100);
-        home.moveDown();
-        home.moveDown();
-        home.moveDown();
-        home.moveDown();
-        home.moveDown();
-        home.moveDown();
-        home.moveDown();
-        home.moveDown();
+        for (int i = 0; i < 8; i++) {
+            home.moveDown();
+        }
         home.moveRight();
         home.moveRight();
 
@@ -33,74 +28,44 @@ public class Desenho{
         roof.makeVisible();
         roof.changeSize(55,150);
         roof.changeColor("black");
-        roof.moveDown();
-        roof.moveDown();
-        roof.moveDown();
-        roof.moveDown();
-        roof.moveDown();
-        roof.moveDown();
-        roof.moveDown();
-        roof.moveRight();
-        roof.moveRight();
-        roof.moveRight();
-        roof.moveRight();
-        roof.moveRight();
+        for (int i = 0; i < 7; i++) {
+            roof.moveDown();
+        }
+        for (int i = 0; i < 5; i++) {
+            roof.moveRight();
+        }
         
         //janela
         window.makeVisible();
         window.changeColor("white");
         window.changeSize(20);
-        window.moveDown();
-        window.moveDown();
-        window.moveDown();
-        window.moveDown();
-        window.moveDown();
-        window.moveDown();
-        window.moveDown();
-        window.moveDown();
-        window.moveDown();
-        window.moveRight();
-        window.moveRight();
-        window.moveRight();
+        for (int i = 0; i < 9; i++) {
+            window.moveDown();
+        }
+        for (int i = 0; i < 3; i++) {
+            window.moveRight();
+        }
         
         //porta
         door.makeVisible();
         door.changeSize(20);
         door.changeColor("black");
-        door.moveDown();
-        door.moveDown();
-        door.moveDown();
-        door.moveDown();
-        door.moveDown();
-        door.moveDown();
-        door.moveDown();
-        door.moveDown();
-        door.moveDown();
-        door.moveDown();
-        door.moveDown();
-        door.moveDown();
-        door.moveRight();
-        door.moveRight();
-        door.moveRight();
-        door.moveRight();
+        for (int i = 0; i < 12; i++) {
+            door.moveDown();
+        }
+        for (int i = 0; i < 4; i++) {
+            door.moveRight();
+        }
         
+        //segunda porta
         door2.makeVisible();
         door2.changeSize(20);
         door2.changeColor("black");
-        door2.moveDown();
-        door2.moveDown();
-        door2.moveDown();
-        door2.moveDown();
-        door2.moveDown();
-        door2.moveDown();
-        door2.moveDown();
-        door2.moveDown();
-        door2.moveDown();
-        door2.moveDown();
-        door2.moveDown();
-        door2.moveRight();
-        door2.moveRight();
-        door2.moveRight();
-        door2.moveRight();
+        for (int i = 0; i < 12; i++) {
+            door2.moveDown();
+        }
+        for (int i = 0; i < 4; i++) {
+            door2.moveRight();
+        }
     }
 }
