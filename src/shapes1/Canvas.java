@@ -13,6 +13,7 @@ import java.util.*;
  *
  * @version 2008.03.30
  */
+
 public class Canvas
 {
     // Note: The implementation of this class (specifically the handling of
